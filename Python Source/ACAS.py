@@ -12,10 +12,10 @@ s.bind(("0.0.0.0", 5617))
 
 
 def App(screen):
-    screen.move(0, 0)
-    screen.draw(screen.width, screen.height,colour=1,thin=1)
+    #screen.move(0, 0)
+    #screen.draw(screen.width, screen.height,colour=1,thin=1)
 
-    screen.move(screen.width, 0)
+    #screen.move(screen.width, 0)
     #screen.draw(0, screen.height,colour=1,thin=1)
     screen.print_at("NUGGET MICROSYSTEMS ACAS", int((screen.width/2)-12), int(screen.height/2),6)
     screen.print_at("WAITING FOR CONNECTION", int((screen.width/2)-11),int(screen.height/2)+1,6)
